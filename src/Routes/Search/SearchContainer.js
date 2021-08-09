@@ -6,17 +6,26 @@ export default class extends React.Component {
     state = {
         movieResults: null,
         tvResults: null,
-        searchTerm: "code",
+        searchTerm: "",
         loading: false,
         error: null,
     };
-    handleSubmit() {
+    handleSubmit = (event) => {
+        event.preventDefault();
         const {searchTerm} = this.state;
         if (searchTerm !== "") {
             this.seacrhByTerm();
         }
-    }
+    };
 
+    updateTerm = (event) => {
+        const {
+            target: {value},
+        } = event;
+        this.setState({
+            searchTerm: value,
+        });
+    };
     async seacrhByTerm() {
         const {searchTerm} = this.state;
         this.setState({loading: true});
@@ -55,6 +64,7 @@ export default class extends React.Component {
                 loading={loading}
                 error={error}
                 handleSubmit={this.handleSubmit}
+                updateTerm={this.updateTerm}
             />
         );
     }

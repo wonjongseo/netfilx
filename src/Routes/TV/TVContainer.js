@@ -32,13 +32,12 @@ export default class extends React.Component {
             });
         } finally {
             this.setState({
-                loading: true,
+                loading: false,
             });
         }
     }
     render() {
         const {topRated, popular, airingToday, loading, error} = this.state;
-        console.log(topRated, popular, airingToday);
         return (
             <TVPresenter
                 topRated={topRated}
