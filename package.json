@@ -32,7 +32,7 @@
             "react-app/jest"
         ]
     },
-    "homepage": "http://wonjongseo.github.io/netfilx",
+    "homepage": "https://relaxed-pasteur-10c7c0.netlify.app/",
     "browserslist": {
         "production": [
             ">0.2%",
