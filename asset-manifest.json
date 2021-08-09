@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/netfilx/static/js/main.45b27115.chunk.js",
+    "main.js.map": "/netfilx/static/js/main.45b27115.chunk.js.map",
+    "runtime-main.js": "/netfilx/static/js/runtime-main.61a468ce.js",
+    "runtime-main.js.map": "/netfilx/static/js/runtime-main.61a468ce.js.map",
+    "static/js/2.11463509.chunk.js": "/netfilx/static/js/2.11463509.chunk.js",
+    "static/js/2.11463509.chunk.js.map": "/netfilx/static/js/2.11463509.chunk.js.map",
+    "index.html": "/netfilx/index.html",
+    "static/js/2.11463509.chunk.js.LICENSE.txt": "/netfilx/static/js/2.11463509.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.61a468ce.js",
+    "static/js/2.11463509.chunk.js",
+    "static/js/main.45b27115.chunk.js"
+  ]
+}
