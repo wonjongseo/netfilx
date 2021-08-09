@@ -17,5 +17,5 @@
 
 
 - Detail Page
-![image](https://user-images.githubusercontent.com/63527605/128677947-1d49c386-cbe1-4cc3-9ae9-fc023af4b4e4.png)
+![image](https://user-images.githubusercontent.com/63527605/128678076-85255e3b-6c3a-4dae-9ee0-d6bdde2a7955.png)
 
