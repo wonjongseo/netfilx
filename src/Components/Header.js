@@ -37,6 +37,7 @@ const SLink = styled(Link)`
     justify-content: center;
 `;
 export default withRouter(({location: {pathname}}) => (
+    // widhRouter는 라우터에 대한 정보를 준다.
     <Header>
         <List>
             <Item current={pathname === "/"}>

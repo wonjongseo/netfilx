@@ -1,12 +1,19 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "https://api.themoviedb.org/3",
+    baseURL: "httpws://api.themoviedb.org/3",
     params: {
+        // axios의 장점 , 커스머마이징 가능
         api_key: "cdd485388f6b9eae7296788f2785dd35",
         language: "en-US",
     },
 });
+
+const myDbApi = axios.create({
+    baseURL: "https://www.imdb.com/title",
+});
+
+export const getImdb = (id) => myDbApi.get(`${id}`);
 
 export const moviesApi = {
     nowPlaying: () => api.get("movie/now_playing"),

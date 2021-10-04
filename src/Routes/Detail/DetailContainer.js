@@ -45,11 +45,16 @@ export default class extends React.Component {
             this.setState({loading: false, result});
         }
     }
+
     render() {
-        const {result, error, loading} = this.state;
-        console.log(result);
+        const {result, error, isMovie, loading} = this.state;
         return (
-            <DetailPresenter result={result} error={error} loading={loading} />
+            <DetailPresenter
+                isMovie={isMovie}
+                result={result}
+                error={error}
+                loading={loading}
+            />
         );
     }
 }
