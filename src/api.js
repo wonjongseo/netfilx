@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "httpws://api.themoviedb.org/3",
+    baseURL: "https://api.themoviedb.org/3",
     params: {
         // axios의 장점 , 커스머마이징 가능
         api_key: "cdd485388f6b9eae7296788f2785dd35",
